@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListInvalidations&k=1:
+  /?Action=ListInvalidations:
     get:
       summary: ' List Invalidations '
       description: Lists invalidation batches
