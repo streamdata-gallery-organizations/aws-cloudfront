@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateCloudFrontOriginAccessIdentity&k=1:
+  /?Action=CreateCloudFrontOriginAccessIdentity:
     get:
       summary: ' Create Cloud Front Origin Access Identity '
       description: Creates a new origin access identity
