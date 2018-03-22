@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInvalidation&k=1:
+  /?Action=GetInvalidation:
     get:
       summary: ' Get Invalidation '
       description: Get the information about an invalidation
