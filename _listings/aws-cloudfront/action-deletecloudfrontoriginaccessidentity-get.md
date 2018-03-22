@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteCloudFrontOriginAccessIdentity&k=1:
+  /?Action=DeleteCloudFrontOriginAccessIdentity:
     get:
       summary: ' Delete Cloud Front Origin Access Identity '
       description: Delete an origin access identity
