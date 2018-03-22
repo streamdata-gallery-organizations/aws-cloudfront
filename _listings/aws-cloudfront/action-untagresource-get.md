@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UntagResource&k=1:
+  /?Action=UntagResource:
     get:
       summary: ' Untag Resource '
       description: Remove tags from a CloudFront resource
