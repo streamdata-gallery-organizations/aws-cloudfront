@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateInvalidation&k=1:
+  /?Action=CreateInvalidation:
     get:
       summary: ' Create Invalidation '
       description: Create a new invalidation
