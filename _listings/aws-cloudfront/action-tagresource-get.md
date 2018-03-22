@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TagResource&k=1:
+  /?Action=TagResource:
     get:
       summary: ' Tag Resource '
       description: Add tags to a CloudFront resource
