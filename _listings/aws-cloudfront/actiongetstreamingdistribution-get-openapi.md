@@ -33,8 +33,8 @@ paths:
         type: string
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: Filter.N
@@ -103,8 +103,8 @@ paths:
         type: string
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: InstanceId
@@ -133,8 +133,8 @@ paths:
         type: string
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t\t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: VpcId
@@ -184,8 +184,8 @@ paths:
         type: string
       - in: query
         name: DryRun
-        description: "Checks whether you have the required permissions for the action,
-          without actually making the request, \t    and provides an error response"
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
         type: string
       - in: query
         name: StreamingDistributionConfigWithTags

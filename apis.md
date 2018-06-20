@@ -1,39 +1,18 @@
 ---
-name: AWS CloudFront
-x-slug: aws-cloudfront
-description: Amazon CloudFront is a global content delivery network (CDN) service
-  that accelerates delivery of your websites, APIs, video content or other web assets.
-  It integrates with other Amazon Web Services products to give developers and businesses
-  an easy way to accelerate content to end users with no minimum usage commitments.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png
-x-kinRank: "10"
-x-alexaRank: ""
-tags: AWS CloudFront
-created: "2018-05-24"
-modified: "2018-05-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-cloudfront/master/_listings/aws-cloudfront/apis.md
+name: Streadata.io API Gallery - AWS CloudFront
+description: This is a repository of aws cloudfront APIs, self-contained as a Github
+  repository, with HTML and YAML representations of the APIs and their surrounding
+  operations.
+image: http://template.streamdata.gallery/assets/aws-cloudfront.png
+created: "2018-02-24"
+modified: "2018-06-20"
+url: http://aws-cloudfront.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
-x-common:
-- type: x-analysis
-  url: https://aws.amazon.com/cloudfront/reporting/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/AmazonCloudFront/latest/APIReference/
-- type: x-faq
-  url: https://aws.amazon.com/cloudfront/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/cloudfront/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/cloudfront/pricing/
-- type: x-service-level-agreement
-  url: https://aws.amazon.com/cloudfront/sla/
-- type: x-webinars
-  url: https://aws.amazon.com/cloudfront/webinars/
-- type: x-website
-  url: https://aws.amazon.com/cloudfront/
-- type: x-whats-new
-  url: https://aws.amazon.com/cloudfront/whats-new/
-include: []
+tags: AWS CloudFront
+include:
+- name: AWS CloudFront
+  url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-cloudfront/master/_listings/aws-cloudfront/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist
